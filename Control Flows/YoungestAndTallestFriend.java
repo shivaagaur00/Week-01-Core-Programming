@@ -24,4 +24,8 @@ public class YoungestAndTallestFriend {
         System.out.println("Youngest friend: " + youngest);
         System.out.println("Tallest friend: " + tallest);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9289d04 ([ShivaGaur] Fixes . YoungestAndTallestFriend completed)
