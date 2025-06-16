@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PowerOfNumberForLoop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter base number:");
+        System.out.print("Enter base number: ");
         int number = sc.nextInt();
         System.out.print("Enter power: ");
         int power = sc.nextInt();
