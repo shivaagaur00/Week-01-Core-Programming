@@ -9,7 +9,6 @@ public class BMICalculator {
 
         System.out.print("Enter height in cm: ");
         double heightCm = sc.nextDouble();
-
         double heightM = heightCm / 100.0;
         double bmi = weight / (heightM * heightM);
 
