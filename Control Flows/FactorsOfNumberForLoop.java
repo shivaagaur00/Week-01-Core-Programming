@@ -10,7 +10,6 @@ public class FactorsOfNumberForLoop {
             System.out.println("Invalid input");
             return;
         }
-        for (int i=1;i < number; i++) {
         for (int i = 1; i < number; i++) {
             if (number % i == 0) {
                 System.out.println(i);
