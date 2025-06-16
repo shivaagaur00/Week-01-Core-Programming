@@ -24,3 +24,4 @@ public class YoungestAndTallestFriend {
         System.out.println("Youngest friend: " + youngest);
         System.out.println("Tallest friend: " + tallest);
     }
+}
