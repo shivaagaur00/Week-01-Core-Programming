@@ -15,7 +15,6 @@ public class ArrayConverter {
                 matrix[i][j] = sc.nextInt();
             }
         }
-        
         int[] array = new int[rows * cols];
         int index = 0;
         
