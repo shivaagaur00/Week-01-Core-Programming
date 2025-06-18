@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LowercaseCompare {
+public class LowercaseCompare{
     public static String toLower(String s) {
         String result = "";
         for (int i = 0; i < s.length(); i++) {
