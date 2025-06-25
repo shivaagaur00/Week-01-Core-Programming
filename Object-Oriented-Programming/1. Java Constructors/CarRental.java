@@ -4,14 +4,12 @@ public class CarRental {
     int rentalDays;
     double dailyRate = 50.0;
 
-    // Default constructor
     public CarRental() {
         this.customerName = "Unknown";
         this.carModel = "Standard";
         this.rentalDays = 1;
     }
 
-    // Parameterized constructor
     public CarRental(String customerName, String carModel, int rentalDays) {
         this.customerName = customerName;
         this.carModel = carModel;
