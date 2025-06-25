@@ -29,7 +29,6 @@ class EBook extends Book {
         System.out.println("Author: " + getAuthor());
     }
 }
-
 public class BookTest {
     public static void main(String[] args) {
         EBook ebook = new EBook("978-0-123456-47-2", "Java Mastery", "Subhankar");
