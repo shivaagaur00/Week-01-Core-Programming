@@ -1,4 +1,3 @@
-// Problem 2: Online Course Management
 public class Course {
     private String courseName;
     private int duration;
