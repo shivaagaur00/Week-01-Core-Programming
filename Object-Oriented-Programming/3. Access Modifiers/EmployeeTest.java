@@ -29,7 +29,6 @@ class Manager extends Employee {
         System.out.println("Salary: " + getSalary());
     }
 }
-
 public class EmployeeTest {
     public static void main(String[] args) {
         Manager m = new Manager(1001, "HR", 60000);
