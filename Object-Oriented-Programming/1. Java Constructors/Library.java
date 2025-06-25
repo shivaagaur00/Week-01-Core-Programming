@@ -10,7 +10,6 @@ public class Library {
         this.price = 0.0;
         this.available = true;
     }
-
     public Library(String title, String author, double price) {
         this.title = title;
         this.author = author;
