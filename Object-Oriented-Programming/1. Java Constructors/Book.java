@@ -3,24 +3,18 @@ public class Book {
     String author;
     double price;
     boolean availability;
-
-    // Default constructor
     public Book() {
         this.title = "Unknown";
         this.author = "Unknown";
         this.price = 0.0;
         this.availability = true;
     }
-
-    // Parameterized constructor
     public Book(String title, String author, double price) {
         this.title = title;
         this.author = author;
         this.price = price;
         this.availability = true;
     }
-
-    // Borrow method
     public boolean borrow() {
         if (availability) {
             availability = false;
